@@ -10,6 +10,7 @@ a{
     text-decoration:none ;
     font-size: 20px;
     font-weight: 900;
+    color: rgb(255, 255, 255);
 }
 ul{
     list-style: none;
@@ -77,7 +78,10 @@ header {
     color: whitesmoke;
 }
 .navbar .logo {
-    color: rgb(75, 26, 252);
+    color: rgb(197, 24, 24);
+    background: rgb(166, 245, 130);
+    align-items: center;
+    margin-top: 9px;
 }
 
 
@@ -303,7 +307,7 @@ label,span,h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(/img/img7.jpg);
+    background: url(./img/img7.jpg);
     background-size: cover;
 }
 
