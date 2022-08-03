@@ -13,10 +13,11 @@
 <body>
     <!-- navbar -->
     <nav class="navbar">
-        <h1 class="logo">Hotel GULMARG INN</h1>
-        <ul class="nav-links">
+        <h1 class="logo">GULMARG INN</h1>
+        <ul class="nav-links" id="static">
             <li class="ctn" class="active"><a href="index.html">Home</a></li>
-            <li class="ctn"><a href="/about.html">About</a></li>
+            <li class="ctn"><a href="about.html">About</a></li>
+            <li class="ctn"><a href="departments.html">Departments</a></li>
             <li class="ctn"><a href="guestrooms.html">Guest Rooms</a></li>
             <li class="ctn"><a href="dining.html">Dining</a></li>
             <li class="ctn"><a href="eventspaces.html">Events</a></li>
@@ -28,37 +29,46 @@
         <div class="header-content">
             <h2>Explore Paradise on Earth with Us</h2>
             <div class="line">
-                <h1>Beautiful Kashmir</h1>
-                <a href="#" class="ctn">Learn More</a>
+                <h1 id="expo">Beautiful Kashmir</h1>
+                <a href="destinations.html" class="ctn">Learn More</a>
             </div>
         </div>
     </header>
+    <section class="review" id="review">
+        <h1 class="heading">
+            <center>
+                <h1>Top Attractions In Kashmir</h1>
+            </center>
+        </h1>
+        <div class="line"></div>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/gulmarg.jpg" alt="Source not found" width="300px" height="300px">
+                <h3 id="gul">Gulmarg</h3>
 
-    <!-- Go throuht Gallery -->
-    <section class="events">
-        <div class="title">
-            <h1>Go Through Gallery</h1>
-            <div class="line"></div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <img src="./img/img1.jpg" alt="" width="400" height="400">
-                <h4>Presidential Suite</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magnam facere sapiente. Odit perspiciatis
-                    adipisci ex velit quaerat iusto veniam labore aspernatur magnam? Eum asperiores nesciunt maiores
-                    eaque, exercitationem enim! Excepturi est aliquam ex sed quibusdam porro magni veritatis recusandae!
-                </p>
-                <a href="#" class="ctn">Learn More</a>
+                <p class="text">
+                    Image result for gulmarg
+                    Gulmarg is very famous for its skiing scenes in India. This town is located on the Pir Panjal Range,
+                    which is a part of the western Himalayas.</p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <img src="./img/img2.jpg" alt="" width="400" height="400">
-                    <h4>King</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda praesentium aspernatur veniam
-                        reiciendis tempora excepturi est provident, itaque li
-                    </p>
-                    <a href="#" class="ctn">Learn More</a>
-                </div>
+            <div class="box">
+                <img src="./img/pahalgam.jpg" alt="Source not found" width="300px" height="300px">
+                <h3 id="gul">Pahalgam</h3>
+
+                <p class="text">Pahalgam is famous for its scenic beauty and is the jewel of the picturesque Liddar
+                    valley located in the high Himalayas. It provides an ideal setting for activities like hiking,
+                    trekking, and fishing. It is also the starting point of the annual pilgrimage to the holy cave of
+                    Amarnath.
+                </p>
+            </div>
+            <div class="box">
+                <img src="./img/sonmarg.jpg" alt="Source not found" width="300px" height="300px">
+                <h3 id="gul">Sonmarg</h3>
+
+                <p class="text">Sonmarg has ancient importance because it was a gateway on the ancient Silk Road that
+                    connects Kashmir with China. It provides as a base camp for Ladakh and is militarily very important
+                    for India. In the winter, Sonamarg becomes a valley covered in white gold thereby living up to its
+                    name.</p>
             </div>
         </div>
     </section>
@@ -69,9 +79,10 @@
         <div class="explore-content">
             <h1>Explore kashmir</h1>
             <div class="line"></div>
-            <p>Create romantic memories in idyllic Gulmarg, walk hand in hand by Srinagar's Dal Lake etc. Book holiday
+            <p style="color:rgb(11, 26, 1);">Create romantic memories in idyllic Gulmarg, walk hand in hand by
+                Srinagar's Dal Lake etc. Book holiday
                 packages with complimentary inclusions like excursions, guided tours etc.</p>
-            <a href="#" class="ctn">Learn More</a>
+            <a href="destinations.html" class="ctn">Learn More</a>
         </div>
     </section>
 
@@ -80,12 +91,11 @@
         <div class="row">
             <div class="col content-col">
                 <h1>Veg and Non-Veg</h1>
-                <div class="line"></div>
                 <p>There are many types of food service styles in hotels to serve customers in the catering industry.
                     This may range from full silver service in a fine dining restaurant, where the dishes are served at
                     the table by waiters with service spoons and forks, to a self-service cafeteria where guests collect
                     their own food from the counter.</p>
-                <a href="#" class="ctn">Learn More</a>
+                <!-- <a href="#" class="ctn">Learn More</a> -->
             </div>
             <div class="col image-col">
                 <div class="image-gallery">
@@ -102,8 +112,9 @@
 
     <!-- footer section  -->
     <section class="footer">
-        <p>Mughal Road, Fifth Avenue, NH444, j&k, India | Phone: +91-7006****** | Email: gulmarginn@gmail.com</p>
-        <p>copyright &#169; 2022 Hotels of Kashmir</p>
+        <p id="fo">Mughal Road, Fifth Avenue, NH444, j&k, India | Phone: +91-7006845375 | Email: gulmarginn@gmail.com
+        </p>
+        <p id="fo">copyright &#169; 2022 Hotels of Kashmir</p>
     </section>
 </body>
 
