@@ -613,5 +613,6 @@ input#submit {
     background: #ebaeae;
     border-radius: 10px;
     border: 4px solid black;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
